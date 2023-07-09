@@ -1,0 +1,226 @@
+body{
+			
+			background: url("../html/image/background.jpg") no-repeat 0px 0px ;
+			background-size:cover;		
+			margin: 0px;
+		}
+.co-container{
+			background-color:white ;
+			width: 1200px;
+			height: 570px;
+			margin: 20px auto;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+		}
+		.co-row1{
+			height: 40px;
+			width: 1200px;
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			border-bottom: 1px solid lightgray;	
+		}
+		p:last-child{
+			margin-left: auto;
+			margin-right: 10px;
+		}
+		p{
+			margin-left: 10px;
+		}
+		.co-row2{
+			height: 35px;
+			border-bottom:  1px solid lightgray;			
+		}
+		.co-row3{
+			width: 710px;
+			height:195px;
+			display: flex;
+			flex-direction: row;
+			/*margin-left: 10px;*/
+			justify-content: space-between;
+			margin-right: 15PX;
+		}		
+		.co-card {
+			width: 200px;
+			padding: 15px;
+			margin-top: 10px;
+		}
+		.co-card1{
+            background-color: rgb(240, 240, 240);
+            border: 1px solid lightgray;
+			width: 200px;
+			padding: 15px;
+			margin-top: 10px;
+		}
+		
+		img{
+			height: auto;
+		} 
+		.co-row3> img{
+			height: 130px;
+		} 
+		.co-box1{
+			width: 1200px;
+			height: 529px;    
+			display: flex;
+			flex-direction: row;
+			
+		}
+		.co-row4{
+			border-bottom: 1px solid lightgray;
+			height: 40px;
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-end;
+		}
+		.co-input{
+			display: flex;
+			margin:15px auto;
+			height: 90px;
+			width: 350px; 
+		}
+		.co-inputbox{
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			width: 100%;
+		}
+		.co-child{
+			border: 1px solid black;
+			border-radius: 3px;
+			padding: 10px;
+			color: gray;
+		}
+		.co-continue{
+			border: 5px solid darkgreen;
+			border-radius: 3px;
+			padding: 10px;
+			background-color: green;
+			display: flex;
+			margin:25px auto;
+			justify-content: center;
+			width: 320px; 
+			color: white;
+		}
+		.co-child1{
+			width: 150px;
+			border: 1px solid black;
+			border-radius: 3px;
+			padding: 10px;
+			color: gray;
+		}
+		.co-childbox{
+			width: 350px;	
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+			margin: 0px auto;
+		}
+		ul.co-breadcrumb{
+			list-style: none;
+			display: flex;
+			align-items: center;
+			color: black;
+		}
+		ul.co-breadcrumb li{
+			display: inline;
+			font-size: 15px;
+		}
+		ul.co-breadcrumb li+li:before {
+			padding: 8px;
+			color: black;
+			content: "/\00a0"
+		}
+		ul.co-breadcrumb li a{
+			text-decoration: none;
+		}
+		aside{
+			height: 100%;
+			background-color:rgb(240, 240, 240);
+			
+			width: 100%;
+		}
+		.co-leftbox{
+			display: flex;
+			flex-wrap: wrap;
+			flex-direction: column;
+			height: 542px;
+			margin: 0px 10px;
+		}
+		.co-Mobileholder{
+			border:5px solid lightgray;
+			width: 50px;
+			height: 50px;
+			display: flex;
+			flex-direction: row;
+			margin-right: 10px;
+		}
+		.co-asidemargin{
+			margin: 10px;
+			border-bottom: 1px solid lightgray;
+			display: flex;
+			flex-direction: column;
+			height: 70px;
+			flex-wrap: wrap;
+			justify-content: space-between;
+		}
+		.co-mobilholderfont{
+			font-size: 15px;
+			margin-top: 6px;
+		}
+		.co-asidemargin1{
+			margin: 10px;
+			margin-bottom: 0px;
+			border-bottom: 1px solid lightgray;
+			display: flex;
+			flex-direction: row;
+			height: 150px;
+		}
+		.co-asidemargin2{
+			margin: 0px 10px;
+			border-bottom: 1px solid lightgray;
+			display: flex;
+			flex-direction: column;
+			height: 80px;
+			justify-content: space-evenly;
+		}
+		.co-c{
+			height: 70px;
+			width: 200px;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap
+		}
+		.co-b{
+			height: 70px;
+			width: 150px;
+			display: flex;
+			flex-direction: column;
+			flex-wrap: wrap
+		}
+		span:last-child{
+			margin-left: auto;
+		}
+		.co-Taxes{
+			height: 15px;
+			
+			display: flex;
+			flex-direction:row;
+			justify-content: space-between;
+			flex-wrap: wrap
+		}
+		.co-Total{
+			display: flex;
+			justify-content: space-between;
+			margin: 10px;
+		}
+		.co-imagesize{
+			height: 50px;
+			width: 50px;
+		}
+		a{
+			color: black;
+		}	
+		
